@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { SectionWrapper } from '@/components/shared/SectionWrapper';
 import { LOCATIONS_DATA, LocationData } from '@/lib/constants';
 import { CallToActionButton } from '@/components/shared/CallToActionButton';
-import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, CheckCircle } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { CONTACT_DETAILS } from '@/lib/constants';
 import Link from 'next/link';
