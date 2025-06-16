@@ -1,5 +1,5 @@
 import type { LucideIcon } from 'lucide-react';
-import { BookText, FileText, UsersRound, Landmark, BriefcaseBusiness, BadgeIndianRupee, MapPin, Cpu, Gift, Phone, Mail, MessageCircle, Search } from 'lucide-react';
+import { BookText, FileText, UsersRound, Landmark, BriefcaseBusiness, BadgeIndianRupee, MapPin, Cpu, Gift, Phone, Mail, MessageCircle, Search, Clock } from 'lucide-react';
 
 export interface NavLink {
   href: string;
@@ -210,5 +210,6 @@ export const ICONS = {
   Mail,
   MessageCircle,
   MapPin,
-  Search,
+ Search,
+ Clock
 };
